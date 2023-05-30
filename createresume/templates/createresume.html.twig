@@ -1,0 +1,37 @@
+{{ attach_library('createresume/createresume-style') }}
+
+
+<h1>Hi</h1>
+{{ form }}
+
+<div class="resume">
+  {% for resume in students %}
+    <h3>Basic Details</h3>
+    <p>Name: {{ resume.rname }}</p>
+    <p>Email: {{ resume.remail }}</p>
+    <p>Phone: {{ resume.phone }}</p>
+    <p>Address: {{ resume.raddress }}</p>
+    <div class="section">
+      <h3 class="section-title">Education</h3>
+      <div class="section-content">
+        <p>PG: {{ resume.postgraduation }}</p>
+        <p>UG: {{ resume.graduation }}</p>
+        <p>Tenth: {{ resume.tenthmark }}</p>
+      </div>
+    </div>
+    <div class="section">
+      <h3 class="section-title">Intern/Employment Details</h3>
+      <div class="section-content">
+        <p>{{ resume.InternshipDetails }}</p>
+      </div>
+    </div>
+    <div class="section">
+      <h3 class="section-title">Skills</h3>
+      <ul class="skills">
+        {% for skill in resume.skills %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,15 @@
+<?php
+
+function createresume_theme($existing, $type, $theme, $path){
+    return [
+        'createresume' => [
+            'variables' => [
+                'title' => '',
+                'students' => '',
+                'form' => ''
+            ],
+           
+        ]
+    ];
+}
+

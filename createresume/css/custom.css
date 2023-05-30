@@ -1,0 +1,38 @@
+.resume {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    padding: 10%;
+  }
+  
+  .resume h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: rgb(199, 112, 112);
+    padding: 5%;
+  }
+  
+  .resume p {
+    margin-bottom: 10px;
+  }
+  
+  .resume .section {
+    margin-bottom: 20px;
+  }
+  
+  .resume .section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume .section-content {
+    margin-bottom: 20px;
+  }
+  
+  .resume .skills {
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styles as per your design requirements */
+  
