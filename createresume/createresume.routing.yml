@@ -1,7 +1,0 @@
-createresume.my_module_list:
-  path: '/createresume'
-  defaults:
-    _controller: '\Drupal\createresume\Controller\createresumeController::createresumeList'
-    _title: 'Add Student'
-  requirements:
-    _permission: 'access content'
