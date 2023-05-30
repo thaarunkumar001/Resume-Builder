@@ -1,0 +1,16 @@
+<h1>Hi</h1>
+{{ form }}
+
+{% for resume in students %}
+    <h3>Name: {{resume.rname}}</h3>
+    <h3>Email: {{resume.remail}}</h3>
+    <h3>Phone: {{resume.phone}}</h3>
+    <h3>Address: {{resume.raddress}}</h3>
+    <h3>PG: {{resume.postgraduation}}</h3>
+    <h3>UG: {{resume.graduation}}</h3>
+    <h3>Tenth: {{resume.tenthmark}}</h3>
+    <h3>Intern/Employment Details: {{resume.InternshipDetails}}</h3>
+    <h3>Skills: {{resume.skills}}</h3>
+
+    
+    {% endfor %}
